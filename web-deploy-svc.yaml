@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: houssemdocker/webappmonitoring:prometheus
+        image: kuga01/webappmonitoring:ae92a26
         ports:
         - containerPort: 80
 ---
